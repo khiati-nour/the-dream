@@ -26,7 +26,7 @@ if (isset($_GET['change'])){
 ?>
 <form >
     <label for="Euro">Euro</label><br>
-    <input type="text"  name="euro" ><br>
+    <input type="text"  name="euro" value="<?php echo @$result2;?>"<br>
     <button type="change" value="change" name="change">change</button><br>
     <label for="Dinar">Dinar (DZ)</label><br>
     <input type="text" name="dinar" value="<?php echo @$result;?>"/><br><br>
